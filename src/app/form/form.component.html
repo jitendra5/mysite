@@ -1,0 +1,14 @@
+<div class="contactform" >
+  <form action="" #heroform="ngForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control" name="name" #name="ngModel" [(ngModel)]="name" required>
+    <div class="alert alert-danger" [hidden]="name.valid || name.pristine">Name Invalid</div>
+    <label for="Password">Password:</label>
+    <input type="password" class="form-control" name="pwd" #inpname [(ngModel)]="pwd" required>
+    <p>Password:{{pwd}}</p>
+    <label for="Age">Age:</label>
+    <input type="text" class="form-control" name="age" #inpname [(ngModel)]="age" required>
+    <p>Age:{{age}}</p>
+    <button class="btn btn-primary" [disabled]="!heroform.form.valid" (click)="newHero(); heroForm.reset()">Clik to submit</button>
+  </form>
+</div>

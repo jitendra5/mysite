@@ -1,91 +1,17 @@
-/* .homepage-hero-module {
-  border-right: none;
-  border-left: none;
-  position: relative;
-}
-.no-video .video-container video,
-.touch .video-container video {
-  display: none;
-}
-.no-video .video-container .poster,
-.touch .video-container .poster {
-  display: block !important;
-}
-.video-container {
-  position: relative;
-  bottom: 0%;
-  left: 0%;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background: #000;
-}
-.video-container .poster img {
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-}
-.video-container .filter {
-  z-index: 100;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%;
-}
-.video-container video {
-  position: absolute;
-  z-index: 0;
-  bottom: 0;
-}
-.video-container video.fillWidth {
-  width: 100%;
-} */
-/* #myVideo { */
-/* border: 1px solid red; */
-/* position: fixed; */
-/* right: 0px; */
-/* bottom: 0px; */
-/* left: 0;
-  width: 1368px;
-  height: 768px;
-} */
-/* .content {
-  position: fixed;
-  bottom: 20%;
-  /* right: 0px; */
-/* left: 0px; */
-/* background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%; */
-/* padding: 20px; */
-/* }  */
-/* #myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: crimson;
-  color: #fff;
-  cursor: pointer;
-} */
-
-/* #myBtn:hover {
-  background: #ddd;
-  color: black;
-} */
-
 #myVideo {
-  position: relative;
-  top: -10px;
-  right: -100px;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  width: 1368px;
-  height: 700px;
+  min-width: 100%;
+  min-height: 100%;
+  padding:1px;
 }
 
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: 10%;
+  right: 2px;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;

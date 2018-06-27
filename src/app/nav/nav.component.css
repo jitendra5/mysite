@@ -1,0 +1,17 @@
+.navigation {
+  position: relative;
+  width: 100%;
+  top:100vh;
+  color: white;
+  text-align: center;
+}
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+}
+

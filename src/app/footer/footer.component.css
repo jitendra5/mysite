@@ -1,0 +1,15 @@
+.footer {
+  /*position: fixed;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  position: relative;
+  top: 120vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+.text-muted {
+   color: #b8bdc3 !important;
+}
+
